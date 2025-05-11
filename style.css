@@ -1,0 +1,122 @@
+*{ 
+ padding: 0; 
+ margin: 0; 
+ border: 0; 
+} 
+*,*:before,*:after{ 
+ -moz-box-sizing: border-box; 
+ -webkit-box-sizing: border-box; 
+ box-sizing: border-box; 
+} 
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+ 
+nav,footer,header,aside{display: block;} 
+ 
+html,body{ 
+ height: 100%; 
+ width: 100%; 
+ font-size: 100%; 
+ line-height: 1; 
+ font-size: 14px; 
+ -ms-text-size-adjust: 100%; 
+ -moz-text-size-adjust: 100%; 
+ -webkit-text-size-adjust: 100%; 
+} 
+input,button,textarea{font-family:inherit;} 
+ 
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;} 
+img{vertical-align: top;} 
+ 
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 700;} 
+
+body{
+   background-color: #30BA8F;
+   font-family: "Tagesschrift", system-ui;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 24px;
+   color: #464451;
+}
+
+header{
+    background-color: #763C28;
+    padding:2% 0.50%;
+}
+.раздел{
+    color:#E8793E;
+    font-size: 40px;
+    text-align: end;
+}
+.описание{
+    background-color: #ED760E;
+    color: #FFD700;
+}
+.Тафсир{
+    margin:4%;
+}
+.Тафсир__тема{
+    font-size: 40px;
+    margin-bottom: 4%;
+    text-align: center;
+    color: #00FFFF;
+}
+.Тафсир__заголовок{
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.Тафсир__подзаговок{
+    font-size: 27px;
+    margin-bottom: 2%;
+}
+.Тафсир__список{
+    margin-left: 30px;
+    margin-bottom: 1%;
+}
+.Тафсир__значения{
+    margin-bottom: 2%;
+}
+.Тафсир__учёные{
+    margin-bottom: 2%;
+    background-color: #BC987E;
+    border-radius: 30px 20px 20px 10px;
+    padding:1%;
+}
+.Тафсир__виды{
+    padding:2% 1%;
+    border: 1px;
+    border-radius: 20px 40px;
+    margin-bottom: 2%; 
+    background-color: #7FFFD4;
+}
+.Тафсир__пояснение{
+    margin-bottom: 2%; 
+    background-color: #009B76;
+    border-radius: 25px;
+    padding: 1%;
+}
+.Тафсир__проРечьАллаха{
+    margin-bottom: 2%;
+    border:solid 3px;
+    border-left:0;
+    border-right:0;
+}
+.Тафсир__Сунна{
+    margin-bottom: 2%;
+    background-color: #FFB02E;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.Тафсир__сподвижники{
+    background-color:#FFB841 ;
+    border-radius: 30px 20px 10px 10px;
+    padding: 1%;
+    margin-bottom: 2%
+}
